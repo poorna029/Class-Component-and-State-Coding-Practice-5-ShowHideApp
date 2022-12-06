@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fname {
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 45px;
+  text-align: center;
+}
+
+.lname {
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 45px;
+  text-align: center;
+}
